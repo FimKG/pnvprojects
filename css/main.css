@@ -17,7 +17,7 @@ img {
 ============================ */
 
 .page-scroll {
-	text-align: center;
+    text-align: center;
 }
 
 .brand-heading {
@@ -36,8 +36,33 @@ html {
 /* ===========================
 --- Navigation Header
 ============================ */
-.navheader {
-        border-bottom: 1px solid rgba(255,255,255,.3);
+
+.navheader, .bg-nav {
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
 }
 
+.bg-nav {
+    background-color: #666;
+}
 
+/* ===========================
+--- 
+============================ */
+
+.home {
+    width: 100%;
+    position: relative;
+    background: url(../assets/img/bg1.jpg) no-repeat top center;
+}
+
+#home.home, #about {
+    padding: 20% 0 0 0;
+}
+
+.home .home-container {
+    text-align: center;
+}
+
+.home .page-scroll {
+    text-align: center;
+}
