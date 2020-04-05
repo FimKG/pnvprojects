@@ -12,19 +12,13 @@ img {
     border-bottom: 10px rgb(102, 99, 64);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     margin: 0 0 30px;
     text-transform: uppercase;
-    font-family: Fira Code,sans-serif;
+    font-family: Fira Code, sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
-
 
 /* ===========================
 --- links
@@ -57,30 +51,30 @@ html {
 
 .bg-nav {
     background-color: #666;
-	background: transparent;
+    background: transparent;
 }
 
-.navbar-fixed-top .bg-nav{
-		margin-bottom: 30px;
-	}
-
-.navbar-nav{
-	
+.navbar-fixed-top .bg-nav {
+    margin-bottom: 30px;
 }
+
+.navbar-main-collapse, .nav-link {
+    color: #d79933;
+}
+
 /* ===========================
 --- home
 ============================ */
 
 .home {
     width: 100%;
-	height: auto;
+    height: auto;
     position: relative;
     background: url(../assets/img/bg1.jpg) no-repeat top center;
-	background-size: cover;
-	border-radius: 0;
-  color: #fff;
-  padding-top: 1rem;
-	
+    background-size: cover;
+    border-radius: 0;
+    color: #fff;
+    padding-top: 1rem;
 }
 
 #home .home {
@@ -96,8 +90,7 @@ html {
 }
 
 .home .slogan {
-	text-align: center;
-
+    text-align: center;
 }
 
 .brand-heading {
@@ -109,27 +102,27 @@ html {
 }
 
 .home .slogan h2 {
-	color: #FFF;
-	font-size: 40px;
-	line-height: 60px;
-	font-weight: 700;
-	font-family: Montserrat, sans-serif;
-	background-color: rgba(0, 0, 0, 0);
-	text-decoration: none;
-	text-transform: uppercase;
-	border-width: 0px;
-	border-color: #000;
-	border-style: none;
-	text-shadow: -1px 0 1px #000;
+    color: #FFF;
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 700;
+    font-family: Montserrat, sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 0px;
+    border-color: #000;
+    border-style: none;
+    text-shadow: -1px 0 1px #000;
 }
 
 .home .slogan h4 {
-	color: #fff;
-	text-shadow: -1px 1px 1px #000;
+    color: #fff;
+    text-shadow: -1px 1px 1px #000;
 }
+
 .text_color {
-	color: #d79933;
-	border-color: darkred;
+    color: #d79933;
 }
 
 /*
@@ -140,7 +133,3 @@ html {
 	
 }
 */
-
-.navbar-main-collapse, .nav-link {
-	color: #d79933;
-}
