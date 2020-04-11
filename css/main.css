@@ -5,6 +5,7 @@ body {
     font-weight: 300;
     color: #666;
     background-color: #fff;
+    overflow-x: hidden;
 }
 
 img {
@@ -15,7 +16,8 @@ img {
 h1, h2, h3, h4, h5, h6 {
     margin: 0 0 30px;
     text-transform: uppercase;
-    font-family: Fira Code, sans-serif;
+/*    font-family: Fira Code, sans-serif;*/
+	font-family: system-ui;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -45,13 +47,17 @@ html {
 --- Navigation Header
 ============================ */
 
-.navheader, .bg-nav {
+.bg-nav {
     border-bottom: 1px solid rgba(255, 255, 255, .3);
 }
 
 .bg-nav {
     background-color: #666;
-    background: transparent;
+    
+}
+
+.navbar{
+	background: transparent;
 }
 
 .navbar-fixed-top .bg-nav {
@@ -60,20 +66,33 @@ html {
 
 .navbar-main-collapse, .nav-link {
     color: #d79933;
+		font-weight: 500;
 }
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.navbar.navbar-fixed-top {
+    background-color: #bfb8b6;
+    border-color: #e0dbda;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .8);
+}
+
+.navbar-brand, .navbar-container, .navbar.navbar-fixed-top, .navbar-brand, .navbar-container {
+    transition: 0.8s;
+    -webkit-transition: 0.8s;
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
 /* ===========================
 --- home
 ============================ */
 
 .home {
-    width: 100%;
-    height: auto;
     position: relative;
     background: url(../assets/img/bg1.jpg) no-repeat top center;
     background-size: cover;
     border-radius: 0;
-    color: #fff;
     padding-top: 1rem;
 }
 
@@ -123,6 +142,32 @@ html {
 
 .text_color {
     color: #d79933;
+}
+
+/* ===========================
+--- section
+============================ */
+
+/* .section-title{
+	
+} */
+
+.section-heading h2 {
+    font-size: 40px;
+}
+
+.section-heading i {
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 0 0 20px;
+    font-size: 16px;
+    line-height: 1.6em;
+}
+
+p.lead {
+    font-weight: 600;
 }
 
 /*
