@@ -30,6 +30,7 @@ hr.line {
     padding: 30px;
     background: darkred;
 } */
+
 /* ===========================
 --- links
 ============================ */
@@ -234,7 +235,7 @@ p.lead {
     text-decoration: none;
 }
 
-.link-texts ,.link-texts-location{
+.link-texts, .link-texts-location {
     font-size: 1.1em;
     text-decoration: none;
     color: rgba(0, 0, 0, 0.699);
@@ -242,6 +243,11 @@ p.lead {
 
 .link-texts-location {
     color: darkred;
+}
+
+.panel-footer {
+        width: 100%;
+    margin: 0 auto;
 }
 
 /* ===========================
