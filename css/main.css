@@ -1,7 +1,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato';
     font-weight: 300;
     color: #666;
     background-color: #fff;
@@ -62,6 +62,14 @@ box-shadow: 0 0 5px 3px black;
 box-shadow: inset hoff voff blur color;
 ============================ */
 
+/* .navheader ul.nav li a {
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: 700;
+} */
+
 /* .current {
     color: #e0dbda;
 } */
@@ -81,17 +89,18 @@ box-shadow: inset hoff voff blur color;
 
 /* .navbar-fixed-top .bg-nav {
     margin-bottom: 30px;
-} */
+} 
 
-.navbar-main-collapse, .nav-link {
+ .navbar-main-collapse, .nav-link {
     color: #d79933;
     font-weight: 500;
-}
+}*/
 
+/*
 .navbar {
     box-shadow: 0 0 5px 3px black;
     box-shadow: inset hoff voff blur color;
-}
+} */
 
 /* .navbar-brand, .navbar-container, .navbar.navbar-fixed-top, .navbar-brand, .navbar-container {
     transition: 0.5s;
@@ -108,11 +117,18 @@ box-shadow: inset hoff voff blur color;
 ============================ */
 
 .home {
-    position: relative;
-    background: url(../assets/img/bg-1.jpg) no-repeat top center;
-    background-size: cover;
+    /* background: url(../assets/img/bg-1.png) no-repeat top center; */
     border-radius: 0;
     padding-top: 1rem;
+}
+
+.bg-1 {
+    position: relative;
+    background-image: url(../assets/img/bg-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.71;
+    filter: alpha(opacity=71) progid:DXImageTransform.Microsoft.Alpha(opacity=71);
 }
 
 .home {
@@ -173,7 +189,7 @@ box-shadow: inset hoff voff blur color;
 }  */
 
 .section-heading h2 {
-    font-size: 40px;
+    font-size: 32px;
 }
 
 .section-heading {
@@ -191,12 +207,8 @@ p {
 }
 
 .p-heading {
-    font-family: Lato;
-    font-size: 18px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 400;
-    line-height: 20px;
+    font-size: 17px;
+    font-weight: 500;
 }
 
 p.lead {
@@ -234,6 +246,20 @@ p.lead {
     width: 40%;
     float: right;
     font-weight: 500;
+}
+
+.social {
+    float: right;
+    color: darkred;
+}
+
+.member-info {
+    background-color: darksalmon;
+}
+
+span.h5 {
+    font-size: 12pt;
+    display: inline;
 }
 
 /* section {
@@ -286,11 +312,10 @@ p.lead {
     margin: 0 auto;
 } */
 
-input.form-control, textarea#message{
+input.form-control, textarea#message {
     border-radius: 10px;
     border-color: #7c511e;
 }
-
 
 /* ===========================
 --- footer #e0dad9

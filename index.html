@@ -23,32 +23,33 @@
 
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar" data-offset="50">
+<body id="page-top" data-spy="scroll" data-target=".navheader" data-offset="50">
   <!-- -------------------------------------------------------------------- focus -------------------------------------------------------------------------- -->
+  <div id="preloader">
+    <div id="load"></div>
+  </div>
+  <!-- ======= Nav Bar = mr-auto col-md-4==navbar-container==navbar-inverse==navbar-expand-lg bg-nav-->
+  <nav class="navbar  navheader navbar-fixed-top  sticky-top" role="navigation">
 
-  <!-- ======= Nav Bar ======= -->
-  <nav class="navbar navbar-expand-lg navheader navbar-fixed-top bg-nav navbar-inverse" role="navigation">
-
-    <div class="container navbar-container">
-      <div class="navbar-header page-scroll mr-auto col-md-4">
-        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse"
-          data-target=".navbar-main-collapse" aria-controls="navbar-main-collapse" aria-expanded="false"
-          aria-label="Toggle navigation">
+    <div class="container ">
+      <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar-main-collapse"
+          aria-controls="navbar-main-collapse" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fa fa-bars"></i>
         </button>
-        <a class="navbar-brand pull-left" href="index.html">
+        <a class="navbar-brand" href="index.html">
           <img src="assets/img/Construction-Logo-header.svg" alt="Construction Logo" class="img-fluid">
         </a>
       </div>
-
-      <div class="collapse navbar-collapse pull-xs-right justify-content-end navbar-main-collapse">
-        <ul class="nav navbar-nav mt-2 mt-md-0 ">
-          <li class="nav-item active"><a class="nav-link" href="#home" title="Home">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about" title="About Us">About Us</a></li>
-          <li class="nav-item"><a class="nav-link" href="#services" title="Home">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="#projects" title="Projects">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="#team" title="Team">Team</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contactus" title="Contact Us">Contact Us</a></li>
+      <!-- pull-xs-right justify-content-end  mt-2 mt-md-0 -->
+      <div class="collapse navbar-collapse navbar-main-collapse">
+        <ul class="nav navbar-nav ">
+          <li class=" active"><a class="" href="#home" title="Home">Home</a></li>
+          <li class=""><a class="" href="#about" title="About Us">About Us</a></li>
+          <li class=""><a class="" href="#services" title="Home">Services</a></li>
+          <li class=""><a class="" href="#projects" title="Projects">Projects</a></li>
+          <li class=""><a class="" href="#team" title="Team">Team</a></li>
+          <li class=""><a class="" href="#contactus" title="Contact Us">Contact Us</a></li>
         </ul>
       </div>
     </div>
@@ -58,7 +59,7 @@
   <!-- -------------------------------------------------------------------- focus -------------------------------------------------------------------------- -->
   <div id="main">
     <!-- ======= home Section ======= -->
-    <section class="home" id="home">
+    <section class="home bg-1" id="home">
       <!--    <div class="home-container" data-aos="fade-up">-->
       <div class="slogan">
         <h3>Welcome to <span class="text-color">Phaswana & Victor - Architect and Construction</span></h3>
@@ -175,15 +176,17 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="member" data-aos="fade-up">
-              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/team/team-1.png" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Moloto Kgaugelo</h4>
-                <span>ARCHITECT & FOUNDER, DIRECTOR</span>
+                <div class="content-left">
+                  <h4>M<span class="h5">oloto</span> K<span class="h5">gaugelo</span></h4>
+                  <h4>A<span class="h5">RCHITECT</span> & F<span class="h5">OUNDER</span>, D<span
+                      class="h5">IRECTOR</span></h4>
+                </div>
                 <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
+                  <a href="tel:079 410 2763"><i class="fa fa-whatsapp"></i></a>
+                  <br>
+                  <a href="mailto:molotohouseplansa@gmail.com"><i class="fa fa-envelope"></i></a>
                 </div>
               </div>
             </div>
@@ -191,15 +194,16 @@
 
           <div class="col-lg-4 col-md-6">
             <div class="member" data-aos="fade-up" data-aos-delay="150">
-              <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/team/team-2.png" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Victor Mohale</h4>
-                <span>FOUNDER, DIRECTOR</span>
+                <div class="content-left">
+                  <h4>V<span class="h5">ictor</span> M<span class="h5">ohale</span></h4>
+                  <h4>F<span class="h5">OUNDER</span>, D<span class="h5">IRECTOR</span></h4>
+                </div>
                 <div class="social">
-                  <a href=""><i class="icofont-twitter"></i></a>
-                  <a href=""><i class="icofont-facebook"></i></a>
-                  <a href=""><i class="icofont-instagram"></i></a>
-                  <a href=""><i class="icofont-linkedin"></i></a>
+                  <a href="tel:072 900 1390"><i class="fa fa-whatsapp"></i></a>
+                  <br>
+                  <a href="mailto:molotohouseplansa@gmail.com"><i class="fa fa-envelope"></i></a>
                 </div>
               </div>
             </div>
@@ -263,28 +267,30 @@
             </form>
           </div>
 
-          <div class="content-right"><h3>Find Us</h3><br>
+          <div class="content-right">
+            <h3>Find Us</h3><br>
 
             <i class="fa fa-home fa-lg mr-3"></i> <label class="control-label"><a class="link-texts-location"
                 href="#">Location</a></label>
-  
+
             <br>
             <br>
-  
+
             <i class="fa fa-whatsapp fa-lg mr-3"> </i><label class="control-label"><a class="link-texts"
                 href="tel:079 410 2763 / 072 900 1390">Cell: 079 410 2763 / 072 900 1390</a></label>
-  
+
             <br>
             <br>
-  
+
             <i class="fa fa-envelope fa-lg mr-3"> </i><label class="control-label"><a class="link-texts"
                 href="mailto:molotohouseplansa@gmail.com">Email: molotohouseplansa@gmail.com</a></label>
-  
+
             <br>
             <br>
-  
+
             <i class="fa fa-facebook-square fa-lg mr-3"> </i><label class="control-label"><a class="link-texts"
-                href="https://www.facebook.com/DraughtsmanMOLOTO/">Moloto HOUSE PLAN SA</a></label></div>
+                href="https://www.facebook.com/DraughtsmanMOLOTO/">Moloto HOUSE PLAN SA</a></label>
+          </div>
 
         </div>
 
