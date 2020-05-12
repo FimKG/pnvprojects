@@ -13,7 +13,7 @@ body {
     font-family: Lato !important;
     width: 100%;
     height: 100%;
-    background: rgba(255, 255, 255, 1) !important;
+    background: rgb(255, 255, 255) !important;
     overflow-x: hidden;
     /*what does it do*/
     font-size: 14px;
@@ -27,7 +27,7 @@ html {
 h1, h2, h3, h4, h5, h6 {
     /* margin: 0 0 30px; */
     text-transform: uppercase;
-    font-weight: 700;
+    /* font-weight: 700; */
     letter-spacing: 1px;
 }
 
@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .bottom-header-area {
     margin: 0px 30px;
-    background: rgba(84, 105, 121, 1);
+    background: rgb(84, 105, 121);
     /*box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75); */
 }
 
@@ -95,9 +95,7 @@ h1, h2, h3, h4, h5, h6 {
 .top-header-area {
     z-index: 1;
     height: 45px;
-    width: 100%;
     padding-left: 60px;
-    line-height: 1.5;
     border-bottom: 3px solid rgba(184, 123, 42, 1);
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.75);
 }
@@ -106,29 +104,21 @@ h1, h2, h3, h4, h5, h6 {
     background: rgba(179, 179, 179, 0.5);
 }
 
-.social-top-header {
-    line-height: 1.5;
+.social-top-header div {
+    display: inline-block;
 }
 
-.fb img, .email img, .whatsapp img {
-    width: 21px;
-    height: 21px;
+.social-top-header img {
+    width: 25px;
+    height: 25px;
 }
 
-/* .top-header-area .fb-top-header .icon img, .top-header-area .email-top-header .icon img, .top-header-area .whatsapp-top-header .icon img {
-    width: 21px;
-    height: 21px;
-}
-
+/*
 .clock-top-header .icon img {
     width: 35px;
     height: 35px;
 }
-
-.email-top-header .email a, .whatsapp-top-header .whatsapp a, .fb-top-header .fb a, .clock-top-header .clock-text p {
-    color: inherit;
-    text-decoration: none;
-} */
+ */
 
 /* .fb, .email, .whatsapp {
     position: relative;
@@ -220,7 +210,7 @@ h2 {
     text-transform: uppercase;
     color: rgb(215, 153, 51);
     text-align: center;
-    border-bottom: 2px solid rgba(184, 123, 42, 1);
+    border-bottom: 2px solid rgb(184, 123, 42);
 }
 
 .section-heading i {
@@ -304,7 +294,7 @@ section #home, section #aboutus, section #services, section #projects, section #
 
 .fa-arrow-right {
     font-size: 14px;
-    color: rgba(84, 105, 121, 1);
+    color: rgb(84, 105, 121);
 }
 
 .clearfix-img {
@@ -324,7 +314,7 @@ section #home, section #aboutus, section #services, section #projects, section #
 }
 
 .panel {
-    border: 1px solid rgba(84, 105, 121, 1);
+    border: 1px solid rgb(84, 105, 121);
     border-radius: 0 !important;
     transition: box-shadow 0.5s;
 }
@@ -335,7 +325,7 @@ section #home, section #aboutus, section #services, section #projects, section #
 
 .panel-footer .btn {
     font-size: 18px;
-    color: rgba(84, 105, 121, 1);
+    color: rgb(84, 105, 121);
 }
 
 /* ===========================
@@ -377,8 +367,8 @@ section #home, section #aboutus, section #services, section #projects, section #
 }
 
 .members-address h6 img {
-    position: absolute;
-    top: 4px;
+    /* position: absolute; */
+    /* top: 4px; */
     z-index: 10;
     left: 0;
 }
@@ -398,7 +388,7 @@ section #home, section #aboutus, section #services, section #projects, section #
 }
 
 .contact-container {
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgb(255, 255, 255);
     box-shadow: 0 20px 20px -20px rgb(37, 37, 37);
     padding: 15px 15px 15px 15px;
 }
@@ -408,7 +398,7 @@ section #home, section #aboutus, section #services, section #projects, section #
 }
 
 .contact-heading h3 {
-    border-bottom: 2px solid rgba(184, 123, 42, 1);
+    border-bottom: 2px solid rgb(184, 123, 42);
     display: inline-block;
     padding: 5px 0;
     text-transform: uppercase;
@@ -442,6 +432,11 @@ section #home, section #aboutus, section #services, section #projects, section #
     padding-left: 40px;
 }
 
+.address img {
+    width: 25px;
+    height: 25px;
+}
+
 .content-sidebar .address h6 img {
     position: absolute;
     top: 4px;
@@ -469,7 +464,7 @@ section #home, section #aboutus, section #services, section #projects, section #
 
 .copyright {
     text-align: center;
-    background: rgba(84, 105, 121, 1);
+    background: rgb(84, 105, 121);
 }
 
 .footer-padding-10 {
@@ -478,7 +473,7 @@ section #home, section #aboutus, section #services, section #projects, section #
 
 .hr-bottom {
     border-top: 3px solid;
-    border-color: rgba(184, 123, 42, 1);
+    border-color: rgb(184, 123, 42);
     box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.75);
 }
 
@@ -488,7 +483,7 @@ section #home, section #aboutus, section #services, section #projects, section #
 }
 
 .credits a:hover {
-    color: rgba(215, 153, 51, 1);
+    color: rgb(215, 153, 51);
     text-decoration: none;
 }
 
