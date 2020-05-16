@@ -2,12 +2,11 @@
 <html>
 
 <head>
-
   <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="description" content="">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
 
   <title>PnV | Architect And Construction</title>
   <!-- Favicon  -->
@@ -19,184 +18,107 @@
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- animate -->
+  <link href="css/animate.min.css" rel="stylesheet">
   <!-- Style custom -->
   <link rel="stylesheet" href="css/main.css" type="text/css" />
   <link rel="stylesheet" href="css/test-mediaquery.css" type="text/css" />
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
 
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".nav-scroll" data-offset="50">
-  <!-- ===================================== focus ===================================== -->
-  <!-- Preloader -->
+<body>
+
+  <!-- ======= Preloader ======= -->
   <div id="preloader">
     <div id="pnv-load"></div>
   </div>
 
-  <!-- header Area  -->
-  <header class="header-area">
-    <!-- Top Header Area -->
-    <div class="top-header-area bg-top-header">
-      <!--nav-header-top-bar-->
-      <div class="social-top-header ">
-        <div class="fb">
-          <a href="https://www.facebook.com/DraughtsmanMOLOTO/"> <img src="assets/icons/facebook.png" alt=""></a>
-        </div>
-        <div class="email">
-          <a href="mailto:molotohouseplansa@gmail.com"> <img src="assets/icons/envelope.png" alt=""></a>
-        </div>
-        <div class="whatsapp">
-          <a href="tel:+27794102763 / +27677956305"> <img src="assets/icons/whatsapp.png" alt="" ></a>
-        </div>
+  <!-- ======= Top Header Area ======= -->
+  <div class="top-header-area d-none d-lg-flex align-items-center fixed-top " id="top-header">
+    <div class="container d-flex align-items-center">
+      <div class="social-top-header ml-auto ">
+        <a href="https://www.facebook.com/DraughtsmanMOLOTO/"> <img src="assets/icons/facebook.png" alt=""></a>
+        <a href="mailto:molotohouseplansa@gmail.com"> <img src="assets/icons/envelope.png" alt=""></a>
+        <a href="tel:+27794102763 / +27677956305"> <img src="assets/icons/whatsapp.png" alt=""></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= Main Header Area ======= -->
+  <header class="header-area fixed-top " id="header">
+    <div class="main-nav container d-flex align-items-center">
+
+      <a class="logo-left mr-auto scrollto " href="#home">
+        <img src="assets/img/pnv-Logo-header.svg" alt="PnV Logo" class="img-fluid">
+      </a>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#home" title="Home">Home</a></li>
+          <li><a href="#aboutus" title="About Us">About Us</a></li>
+          <li><a href="#services" title="Services">Services</a></li>
+          <li><a href="#projects" title="Projects">Projects</a></li>
+          <li><a href="#team" title="Team">Team</a></li>
+          <li><a href="#contactus" title="Contact Us">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="d-inline-flex align-items-center clock-top-header ml-auto">
+        <img src="assets/icons/clock.png" alt="">
+        <p class="clock-text">Mon - Fri: 09AM - 4PM</p>
       </div>
 
-      <!-- <div class="h-100 d-flex align-items-center">
-        <div class="fb-top-header ">
-          <div class="icon">
-            <img src="assets/icons/facebook.png" alt="">
-          </div>
-          <div class="fb">
-            <a href="https://www.facebook.com/DraughtsmanMOLOTO/">Moloto HOUSE PLAN SA</a>
-          </div>
-        </div>
-
-        <div class="email-top-header ">
-          <div class="icon">
-            <img src="assets/icons/envelope.png" alt="">
-          </div>
-          <div class="email">
-            <a href="mailto:molotohouseplansa@gmail.com">molotohouseplansa@gmail.com</a>
-          </div>
-        </div>
-
-        <div class="whatsapp-top-header ">
-          <div class="icon">
-            <img src="assets/icons/whatsapp.png" alt="">
-          </div>
-          <div class="whatsapp">
-            <a href="tel:+27794102763 / +27729001390">Cell: 079 410 2763 / 072 900 1390</a>
-          </div>
-        </div>-->
-      </div> 
-
-
-      <!-- Main Header Area -->
-      <div class="main-nav" id="sticky-nav-main">
-        <div class="nav-container">
-
-          <nav class="navbar navbar-fixed-top  main-navbar bottom-header-area nav-scroll" role="navigation">
-            <a class="navbar-brand logo-left" href="index.html">
-              <img src="assets/img/Construction-Logo-header.svg" alt="Construction Logo" class="img-fluid">
-            </a>
-            <!-- page-scroll -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggler close" data-toggle="collapse" data-target=".main-nav-collapse"
-                aria-controls="main-nav-collapse" aria-expanded="false" aria-div="Toggle navigation">
-                <i class="fa fa-bars"></i>
-              </button>
-            </div>
-
-            <div class="collapse navbar-collapse main-nav-collapse nav-links">
-              <ul class="nav navbar-nav">
-
-                <li class="active"><a class="" href="#home" title="Home">Home</a></li>
-                <li class=""><a class="" href="#aboutus" title="About Us">About Us</a></li>
-                <li class=""><a class="" href="#services" title="Services">Services</a></li>
-                <li class=""><a class="" href="#projects" title="Projects">Projects</a></li>
-                <li class=""><a class="" href="#team" title="Team">Team</a></li>
-                <li class=""><a class="" href="#contactus" title="Contact Us">Contact Us</a></li>
-
-                <div class="clock-top-header">
-                  <div class="icon">
-                    <img src="assets/icons/clock.png" alt="">
-                  </div>
-                  <p class="clock-text">Mon - Fri: 09AM - 4PM</p>
-                </div>
-
-              </ul>
-            </div>
-          </nav>
-
-        </div>
-      </div>
-
+    </div>
   </header>
-  <!-- ===================================== focus ====================================== -->
-  <!-- <div id="main"> -->
+
   <!-- ======= Home Section ======= -->
-  <section class="breadcumb-area bg-img gradient-background-overlay"
-    style="background-image: url(assets/img/bg-1.png);">
-    <div class="container h-100">
-      <div class="row h-100 align-items-center">
-        <div class="col-12">
-          <div class="breadcumb-content">
-            <h3 class="breadcumb-title">landing</h3>
-          </div>
-        </div>
+  <section id="home" class="home-area d-flex justify-content-center align-items-center">
+    <div class="landing-area">
+      <div class="landing-content">
+        <h1 class="animated fadeInDown">Welcome to Phaswana & Victor - Architect and Construction </h1>
+        <h3 class="animated fadeInUp">We are team of talanted designers making Blueprints to Reality</h3>
+        <button class="btn btn-lg send-btn animated fadeInUp">Get a Qoute</button>
+      </div>
+      <div class="page-scroll animated fadeInUp" id="tobelow">
+        <a href="#projects" class="btn btn-circle scroll-to">
+          <i class="fa fa-angle-double-down "></i>
+        </a>
       </div>
     </div>
   </section>
 
+  <main id="main">
 
-  <!-- <section class="home-area " id="home">
-    <div class=" landing bg-img">
-
-      <div class="content-header">
-        <h3 class="landing-h3-blck">Welcome to <span class="landing-h3">Phaswana & Victor - Architect and
-            Construction</span></h3>
-        <h4 class="landing-h4">We are team of talanted designers making Blueprints to Reality</h4>
-        <button type="submit" class="btn shadow rounded"> Get a Quote </button>
+    <!-- ====== About us Section =======  -->
+    <section class="aboutus-area section-padding-100" id="aboutus">
+      <div class="section-heading ">
+        <h2>About us</h2>
+        <i class="fa fa-2x fa-angle-down"></i>
       </div>
+      <div class="section-bg">
+        <div class="container">
+          <div class="row justify-content-center">
+            Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+            laoreet
+            dolore magna aliquam erat volutpat. Ut wisi enim
+            ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+            consequat. Lorem ipsum dolor sit amet, consectetuer
+            adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
+            wisi enim ad minim veniam, quis nostrud exerci
+            tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+            dolor
+            in hendrerit in vulputate velit esse molestie
+            consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+            blandit praesent luptatum zzril delenit augue duis dolore
+            te feugait nulla facilisi.
 
-      <div class="page-scroll">
-        <a href="#aboutus" class="btn btn-circle">
-          <i class="fa fa-angle-double-down fa-2x animated"></i></a>
-      </div>
-
-
-    </div>
-  </section> -->
-
-  <!-- <button type="submit" class="submit-btn btn btn-outhr-line-warning btn-lg btn-block shadow rounded">Send
-    Message</button> -->
-
-  <!-- ======= About us Section ======= 
-  <section class="aboutus-area section-padding-100" id="aboutus">
-    <div class="section-heading ">
-      <h2>About us</h2>
-      <i class="fa fa-2x fa-angle-down"></i>
-    </div>
-    <div class="section-bg">
-      <div class="container">
-        <div class="row justify-content-center">
-          Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-          dolore magna aliquam erat volutpat. Ut wisi enim
-          ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-          consequat. Lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut
-          wisi enim ad minim veniam, quis nostrud exerci
-          tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
-          in hendrerit in vulputate velit esse molestie
-          consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
-          blandit praesent luptatum zzril delenit augue duis dolore
-          te feugait nulla facilisi.
-
+          </div>
         </div>
+
       </div>
+    </section>
 
-    </div>
-  </section>-->
-
-  <!-- ======= Services Section ======= 
+    <!-- ======= Services Section ======= 
   <section class="service-area section-padding-100" id="services">
     <div class="section-heading ">
       <h2>Our services</h2>
@@ -247,261 +169,266 @@
     </div>
   </section>-->
 
-  <!-- ======= Projects Section ======= -->
-  <section class="project-area section-padding-100" id="projects">
-    <div class="section-heading ">
-      <h2>Our recent projects</h2>
-      <i class="fa fa-2x fa-angle-down"></i>
-      <h4>
-        <p class="p-heading">What we have created</p>
-      </h4>
-    </div>
-    <div class="section-bg">
-      <div class="text-center">
-        <div class="row text-center">
-
-          <div class="col-sm-4">
-            <div class="panel panel-default text-center">
-              <div class="thumbnail">
-                <img src="assets/img/projects/pj-1.jpg" alt="">
-                <div class="panel-footer ">
-                  <p class="btn btn-block"><strong> More <i class="fa fa-arrow-right "></i></strong></p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-4">
-            <div class="panel panel-default text-center">
-              <div class="thumbnail">
-                <img src="assets/img/projects/pj-2.png" alt="">
-                <div class="panel-footer ">
-                  <p class="btn btn-block"><strong> More <i class="fa fa-arrow-right"></i></strong></p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-4">
-            <div class="panel panel-default text-center">
-              <div class="thumbnail">
-                <img src="assets/img/projects/pj-3.jpg" alt="">
-                <div class="panel-footer ">
-                  <p class="btn btn-block"><strong> More <i class="fa fa-arrow-right"></i></strong></p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <div class="clearfix-img"></div>
-        <div class="row text-center">
-
-          <div class="col-sm-4">
-            <div class="panel panel-default text-center">
-              <div class="thumbnail">
-                <img src="assets/img/projects/pj-4.jpg" alt="">
-                <div class="panel-footer ">
-                  <p class="btn btn-block"><strong> More <i class="fa fa-arrow-right"></i></strong></p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-4">
-            <div class="panel panel-default text-center">
-              <div class="thumbnail">
-                <img src="assets/img/projects/pj-5.png" alt="">
-                <div class="panel-footer ">
-                  <p class="btn btn-block"><strong> More <i class="fa fa-arrow-right"></i></strong></p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-4">
-            <div class="panel panel-default text-center">
-              <div class="thumbnail">
-                <img src="assets/img/projects/pj-6.png" alt="">
-                <div class="panel-footer ">
-                  <p class="btn btn-block"><strong> More <i class="fa fa-arrow-right"></i></strong></p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ======= Team Us Section ======= -->
-  <section class="team-area section-padding-100" id="team">
-    <div class="section-heading ">
-      <h2>Meet the Team</h2>
-      <i class="fa fa-2x fa-angle-down"></i>
-      <h4>
-        <p class="p-heading"> At your Service. </p>
-      </h4>
-    </div>
-
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 col-sm-6 col-lg-4">
-          <div class="team-1 mb-100">
-            <div class="img-thumb">
-              <img src="assets/img/team/team-1.png" alt="">
-            </div>
-
-            <div class="members-info">
-              <h2> M<span>oloto</span> K<span>gaugelo</span> </h2>
-              <h4> A<span>rchitect</span> & F<span>ounder</span>, D<span>irector</span> </h4>
-
-              <div class="members-address">
-                <h6><img src="assets/icons/whatsapp.png" alt="">
-                  <a href="tel:+277941027630">Cell: 079 410 2763</a> </h6>
-                <h6><img src="assets/icons/envelope.png" alt="">
-                  <a href="mailto:molotohouseplansa@gmail.com">molotohouseplansa@gmail.com</a> </h6>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-sm-6 col-lg-4">
-          <div class="team-2  mb-100">
-            <div class="img-thumb">
-              <img src="assets/img/team/team-2.png" alt="">
-            </div>
-
-            <div class="members-info">
-              <h2> V<span>ictor</span> M<span>ohale</span></h2>
-              <h4> F<span>OUNDER</span>, D<span>IRECTOR</span></h4>
-
-              <div class="members-address">
-                <h6><img src="assets/icons/whatsapp.png" alt="">
-                  <a href="tel:+27677956305">Cell: 067 795 6305</a> </h6>
-                <h6><img src="assets/icons/envelope.png" alt="">
-                  <a href="mailto:molotohouseplansa@gmail.com">molotohouseplansa@gmail.com</a> </h6>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-sm-6 col-lg-4">
-          <div class="team-2  mb-100">
-            <div class="img-thumb">
-              <img src="assets/img/team/team-3.png" alt="">
-            </div>
-
-            <div class="members-info">
-              <h2> R<span>.</span> M<span>methi</span></h2>
-              <h4> M<span>arketing</span> M<span>anager</span></h4>
-
-              <div class="members-address">
-                <h6><img src="assets/icons/whatsapp.png" alt="">
-                  <a href="tel:+27835439713">Cell: 083 543 9713</a> </h6>
-                <h6><img src="assets/icons/envelope.png" alt="">
-                  <a href="mailto:molotohouseplansa@gmail.com">molotohouseplansa@gmail.com</a> </h6>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ======= Contact Us Section ======= -->
-  <section class="contact-area section-padding-100" id="contactus">
-    <div class="section-heading">
-      <h2>Get in touch</h2>
-      <i class="fa fa-2x fa-angle-down"></i>
-    </div>
-    <div class="section-bg bg-img-ctus gradient-background-overlay">
-      <div class="container contact-container">
+    <!-- ======= Projects Section ======= -->
+    <section class="project-area section-padding-100" id="projects">
+      <div class="section-heading ">
+        <h2>Our recent projects</h2>
+        <i class="fa fa-2x fa-angle-down"></i>
         <h4>
-          <p class="p-heading">Fill in the form below and we will get back to you.</p>
+          <p class="p-heading">What we have created</p>
         </h4>
-        <div class="row">
-          <!-- Contact Form Area action="#" method="post"-->
-          <div class="col-12 col-lg-8">
-            <div class="contact-heading">
-              <h3 class="test">Contact info</h3>
-            </div>
-            <div class="contact-form">
-              <form>
-                <div class="row ">
-                  <div class="col-6 col-auto">
-                    <div class="form-group">
-                      <input type="text" class="form-control" name="name" id="contact-name" placeholder="Your Name">
-                    </div>
-                    <div class="form-group">
-                      <input type="text" class="form-control" name="subject" id="subject" placeholder="Your Subject">
-                    </div>
-                    <div class="form-group">
-                      <input type="number" class="form-control" name="number" id="contact-number"
-                        placeholder="Your Phone">
-                    </div>
-                    <div class="form-group">
-                      <input type="email" class="form-control" name="email" id="contact-email" placeholder="Your Email">
-                    </div>
-                  </div>
-                  <div class="col-6 col-auto">
-                    <div class="form-group">
-                      <textarea class="form-control" name="message" id="message" rows="8"
-                        placeholder="Your Message"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-md shadow rounded submit-btn">Send Message</button>
+      </div>
+      <div class="section-bg">
+        <div class="text-center">
+          <div class="row text-center">
+
+            <div class="col-sm-4">
+              <div class="panel panel-default text-center">
+                <div class="thumbnail">
+                  <img src="assets/img/projects/pj-1.jpg" alt="">
+                  <div class="panel-footer ">
+                    <p class="btn btn-block"><strong> More <i class="fa fa-arrow-right "></i></strong></p>
                   </div>
                 </div>
-              </form>
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <div class="panel panel-default text-center">
+                <div class="thumbnail">
+                  <img src="assets/img/projects/pj-2.png" alt="">
+                  <div class="panel-footer ">
+                    <p class="btn btn-block"><strong> More <i class="fa fa-arrow-right"></i></strong></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <div class="panel panel-default text-center">
+                <div class="thumbnail">
+                  <img src="assets/img/projects/pj-3.jpg" alt="">
+                  <div class="panel-footer ">
+                    <p class="btn btn-block"><strong> More <i class="fa fa-arrow-right"></i></strong></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="clearfix-img"></div>
+          <div class="row text-center">
+
+            <div class="col-sm-4">
+              <div class="panel panel-default text-center">
+                <div class="thumbnail">
+                  <img src="assets/img/projects/pj-4.jpg" alt="">
+                  <div class="panel-footer ">
+                    <p class="btn btn-block"><strong> More <i class="fa fa-arrow-right"></i></strong></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <div class="panel panel-default text-center">
+                <div class="thumbnail">
+                  <img src="assets/img/projects/pj-5.png" alt="">
+                  <div class="panel-footer ">
+                    <p class="btn btn-block"><strong> More <i class="fa fa-arrow-right"></i></strong></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <div class="panel panel-default text-center">
+                <div class="thumbnail">
+                  <img src="assets/img/projects/pj-6.png" alt="">
+                  <div class="panel-footer ">
+                    <p class="btn btn-block"><strong> More <i class="fa fa-arrow-right"></i></strong></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Team Us Section ======= -->
+    <section class="team-area section-padding-100" id="team">
+      <div class="section-heading ">
+        <h2>Meet the Team</h2>
+        <i class="fa fa-2x fa-angle-down"></i>
+        <h4>
+          <p class="p-heading"> At your Service. </p>
+        </h4>
+      </div>
+
+      <div class="container">
+        <div class="row ">
+          <div class="col-lg-4">
+            <div class="team-1 mb-100">
+              <div class="img-thumb">
+                <img src="assets/img/team/team-1.jpg" alt="" class="img-fluid rounded-circle">
+              </div>
+
+              <div class="members-info">
+                <h2> M<span>oloto</span> K<span>gaugelo</span> </h2>
+                <h4> A<span>rchitect</span> & F<span>ounder</span>, D<span>irector</span> </h4>
+
+                <div class="members-address">
+                  <h6><img src="assets/icons/whatsapp.png" alt="">
+                    <a href="tel:+277941027630">Cell: 079 410 2763</a> </h6>
+                  <h6><img src="assets/icons/envelope.png" alt="">
+                    <a href="mailto:molotohouseplansa@gmail.com">molotohouseplansa@gmail.com</a> </h6>
+                </div>
+              </div>
             </div>
           </div>
 
-          <div class="col-12 col-lg-4">
-            <div class="contact-heading">
-              <h3>Find Us</h3>
-            </div>
-            <div class="content-sidebar">
-              <div class="weekly-office-hours">
-                <ul>
-                  <li class="d-flex align-items-center justify-content-between"><span>Monday - Friday</span>
-                    <span>09 AM - 04 PM</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><span>Saturday</span>
-                    <span>Closed</span></li>
-                  <li class="d-flex align-items-center justify-content-between"><span>Sunday</span>
-                    <span>Closed</span></li>
-                </ul>
+          <div class="col-lg-4">
+            <div class="team-2  mb-100">
+              <div class="img-thumb">
+                <img src="assets/img/team/team-2.jpg" alt="" class="img-fluid rounded-circle">
               </div>
 
-              <div class="address mt-30">
-                <h6><img src="assets/icons/location.png" alt=""> 3557 Moleleki Ex1 ,<br>Katlegong, Gauteng,<br>1431
-                </h6>
-                <h6><img src="assets/icons/whatsapp.png" alt="">
-                  <a href="tel:+27794102763 / +27677956305">C<span>ell</span>: 079 410 2763 / 067 795 6305 / <br>083 543
-                    9713</a> </h6>
-                <h6><img src="assets/icons/envelope.png" alt="">
-                  <a href="mailto:molotohouseplansa@gmail.com">molotohouseplansa@<span>gmail.com</span></a> </h6>
-                <h6><img src="assets/icons/facebook.png" alt="">
-                  <a href="https://www.facebook.com/DraughtsmanMOLOTO/">M<span>oloto</span> HOUSE PLAN SA</a> </h6>
+              <div class="members-info">
+                <h2> V<span>ictor</span> M<span>ohale</span></h2>
+                <h4> F<span>OUNDER</span>, D<span>IRECTOR</span></h4>
+
+                <div class="members-address">
+                  <h6><img src="assets/icons/whatsapp.png" alt="">
+                    <a href="tel:+27677956305">Cell: 067 795 6305</a> </h6>
+                  <h6><img src="assets/icons/envelope.png" alt="">
+                    <a href="mailto:molotohouseplansa@gmail.com">molotohouseplansa@gmail.com</a> </h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="team-2  mb-100">
+              <div class="img-thumb">
+                <img src="assets/img/team/team-3.png" alt="" class="img-fluid rounded-circle">
+              </div>
+
+              <div class="members-info">
+                <h2> R<span>.</span> M<span>methi</span></h2>
+                <h4> M<span>arketing</span> M<span>anager</span></h4>
+
+                <div class="members-address">
+                  <h6><img src="assets/icons/whatsapp.png" alt="">
+                    <a href="tel:+27835439713">Cell: 083 543 9713</a> </h6>
+                  <h6><img src="assets/icons/envelope.png" alt="">
+                    <a href="mailto:molotohouseplansa@gmail.com">molotohouseplansa@gmail.com</a> </h6>
+                </div>
               </div>
             </div>
           </div>
         </div>
-
       </div>
-    </div>
-  </section>
-  <!--  -->
-  <!-- <a href="#" class="back-to-top"><i class="fa fa-chevron-double-up"></i></a> -->
+    </section>
 
-  <div class="wow shake" data-wow-delay="0.4s">
-    <div class="page-scroll marginbot-30">
-      <a href="#home" id="totop" class="btn btn-circle">
-        <i class="fa fa-angle-double-up fa-2x animated"></i>
-      </a>
-    </div>
-  </div>
-  <!--  -->
+    <!-- ======= Contact Us Section ======= -->
+    <section class="contact-area section-padding-100" id="contactus">
+      <div class="section-heading">
+        <h2>Get in touch</h2>
+        <i class="fa fa-2x fa-angle-down"></i>
+      </div>
+      <div class="bg-img-ctus">
+        <div class="container contact-container">
+          <h4>
+            <p class="p-heading">Fill in the form below and we will get back to you.</p>
+            <!-- <span class="success-message"></span>
+            <span class="error-message"></span> -->
+          </h4>
+          <div class="row">
+            <!-- Contact Form Area -->
+            <div class="col-lg-8">
+              <div class="contact-heading">
+                <h3 class="test">Contact info</h3>
+              </div>
+              <div class="contact-form-container">
+                <form class="contact-form" action="php/contact.php" method="post">
+                  <div class="row ">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input type="text" class="form-control" name="name" id="contact-name" placeholder="Your Name">
+                        <div class="validate"></div>
+                      </div>
+                      <div class="form-group">
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Your Subject">
+                        <div class="validate"></div>
+                      </div>
+                      <div class="form-group">
+                        <input type="number" class="form-control" name="number" id="contact-number"
+                          placeholder="Your Phone">
+                        <div class="validate"></div>
+                      </div>
+                      <div class="form-group">
+                        <input type="email" class="form-control" name="email" id="contact-email"
+                          placeholder="Your Email">
+                        <div class="validate"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <textarea class="form-control" name="message" id="message" rows="8"
+                          placeholder="Your Message"></textarea>
+                        <div class="validate"></div>
+                      </div>
+
+                      <div class="error-message"></div>
+                      <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                      <div class="pd"><button type="submit" class="btn btn-md send-btn">Send Message</button></div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="contact-heading">
+                <h3>Find Us</h3>
+              </div>
+              <div class="content-sidebar">
+                <div class="weekly-office-hours">
+                  <ul>
+                    <li class="d-flex align-items-center justify-content-between"><span>Monday - Friday</span>
+                      <span>09 AM - 04 PM</span></li>
+                    <li class="d-flex align-items-center justify-content-between"><span>Saturday</span>
+                      <span>Closed</span></li>
+                    <li class="d-flex align-items-center justify-content-between"><span>Sunday</span>
+                      <span>Closed</span></li>
+                  </ul>
+                </div>
+
+                <div class="address mt-30">
+                  <h6><img src="assets/icons/location.png" alt=""> 3557 Moleleki Ex1 ,<br>Katlegong, Gauteng,<br>1431
+                  </h6>
+                  <h6><img src="assets/icons/whatsapp.png" alt="">
+                    <a href="tel:+27794102763 / +27677956305">C<span>ell</span>: 079 410 2763 / 067 795 6305 / <br>083
+                      543
+                      9713</a> </h6>
+                  <h6><img src="assets/icons/envelope.png" alt="">
+                    <a href="mailto:molotohouseplansa@gmail.com">molotohouseplansa@<span>gmail.com</span></a> </h6>
+                  <h6><img src="assets/icons/facebook.png" alt="">
+                    <a href="https://www.facebook.com/DraughtsmanMOLOTO/">M<span>oloto</span> HOUSE PLAN SA</a> </h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
   <!-- ======= Footer ======= -->
   <div class="copyright">
     <div class="hr-bottom"></div>
@@ -517,9 +444,24 @@
       </div>
     </div>
   </div>
-  <!-- ======= End Footer ======= -->
 
-  <!-- Optional JavaScript -->
+  <!-- ======= back to top ======= -->
+  <div class="page-scroll" id="totop">
+    <a href="#" class="btn btn-circle scroll-to">
+      <i class="fa fa-angle-double-up animated"></i>
+    </a>
+  </div>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <!-- custom JavaScript -->
   <script src="js/custm.js"></script>
 
 </body>
