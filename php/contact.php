@@ -4,7 +4,7 @@
   
 if (isset($_POST['name'], $_POST['subject'], $_POST['number'], $_POST['email'], $_POST['message'])) {
 
-    print_r($_POST);
+    print_r($_POST +"\n" + $receiving_email_address);
 }
 
 // $contact = new PHP_Email_Form;
